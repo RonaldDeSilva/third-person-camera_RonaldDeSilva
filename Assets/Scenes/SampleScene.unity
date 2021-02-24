@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -246,6 +246,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &270892516
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1625543416}
+    m_Modifications:
+    - target: {fileID: -6057140222963153312, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a4e518063b47ffb4ab87c5811a7a7098, type: 2}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.227
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2561639742684099676, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4df207735405e84cb237d03d49a5451, type: 2}
+    - target: {fileID: -927199367670048503, guid: 06e90d2e517bc3f4e97f350274d98d52,
+        type: 3}
+      propertyPath: m_Name
+      value: Character_Mesh
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06e90d2e517bc3f4e97f350274d98d52, type: 3}
 --- !u!1 &531215399
 GameObject:
   m_ObjectHideFlags: 3
@@ -425,7 +504,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.6260331, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -441,7 +520,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667832342}
-  m_LocalRotation: {x: 0.07697141, y: -0.000000017155331, z: 0.0000000013243991, w: 0.9970333}
+  m_LocalRotation: {x: 0.07697141, y: 0.000000017155338, z: -0.0000000013243997, w: 0.9970333}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -593,7 +672,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.6260331, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -694,7 +773,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.092558786, y: -0.000000004908249, z: 4.5626014e-10, w: 0.9957073}
+  m_LocalRotation: {x: 0.092558786, y: 0.000000004908249, z: -4.5626014e-10, w: 0.9957073}
   m_LocalPosition: {x: 0, y: 3.2655256, z: -14.550446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -782,7 +861,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.6260331, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -873,6 +952,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1528594653 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 06e90d2e517bc3f4e97f350274d98d52,
+    type: 3}
+  m_PrefabInstance: {fileID: 270892516}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1625543414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -880,6 +965,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5380550480061317535, guid: 7c84b41dfd5d01441942ff45559da3e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c84b41dfd5d01441942ff45559da3e6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -967,10 +1057,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 1625543418}
-  cam: {fileID: 1244320351}
+  cam: {fileID: 963194228}
   speed: 6
   TurnSmoothTime: 0.1
   TurnSmoothVelocity: 0
+  anim: {fileID: 1528594653}
 --- !u!143 &1625543418
 CharacterController:
   m_ObjectHideFlags: 0
@@ -982,13 +1073,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 1.7
+  m_Radius: 0.26
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.26, z: 0}
 --- !u!1 &1674442870
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1351,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.6260331, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

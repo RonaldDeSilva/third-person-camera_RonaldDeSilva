@@ -10,12 +10,21 @@ public class Third_Person_Movement : MonoBehaviour
 
     public float TurnSmoothTime = 0.1f;
     public float TurnSmoothVelocity;
+    public Animator anim;
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
+        if (horizontal > 0 || vertical > 0)
+        {
+            anim.SetBool("Walking", true);
+        }
+        else
+        {
+            anim.SetBool("Walking", false);
+        }
         if (direction.magnitude > 0.1f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
